@@ -1,11 +1,15 @@
-#include "Gio.h"
+#include "SoPhuc.h"
 #include <iostream>
-#include <iomanip>
 using namespace std;
+
 int main(){
-Gio a;
-a.Nhap();
-a.TinhCongThemMotGiay();
-a.Xuat();
+SoPhuc x,y,a;
+x.Nhap();
+x.Xuat();
+x.Tong(y);
+x.Hieu(y);
+x.Tich(y);
+x.Thuong(y);
+
 return 0;
 }
